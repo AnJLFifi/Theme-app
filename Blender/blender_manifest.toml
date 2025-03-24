@@ -1,0 +1,32 @@
+schema_version = "1.0.0"
+
+# Example of manifest file for a Blender extension
+# Change the values according to your extension
+id = "alien_pink_theme"
+version = "5.3.3"
+name = "Alien Pink"
+tagline = "Stylish and vibrant theme designed specially for you"
+maintainer = "Alumx <alumxarts@gmail.com>"
+# Supported types: "add-on", "theme"
+type = "theme"
+
+# Optional link to documentation, support, source files, etc
+website = "https://github.com/Alumx/Alien-Pink-Blender-theme"
+
+# Optional list defined by Blender and server, see:
+# https://docs.blender.org/manual/en/dev/extensions/tags.html
+tags = ["Dark", "High Contrast"]
+
+blender_version_min = "4.2.0"
+# Optional: maximum supported Blender version
+# blender_version_max = "5.1.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+# Optional: required by some licenses.
+copyright = [
+  "2002-2024 Alumx",
+]
